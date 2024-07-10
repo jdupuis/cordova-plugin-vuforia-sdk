@@ -31,7 +31,7 @@
         <!-- Add our permissions to the Android Manifest -->
         <config-file target="AndroidManifest.xml" parent="/*">
             <uses-feature android:glEsVersion="0x00020000" />
-            <uses-feature android:name="android.hardware.camera" />
+            <!-- <uses-feature android:name="android.hardware.camera" /> -->
             <uses-permission android:name="android.permission.CAMERA" />
             <uses-permission android:name="android.permission.INTERNET"/>
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
